@@ -11,9 +11,12 @@ for element in list:
 whileを使ったループ
 """
 
+# ループ用変数
 num = 0
+
 # リストの要素数の数を取得
 list_length = len(list)
+
 # num=0から1ループ毎にnumを1ずつ加算
 # リストをインデックスが(リストの要素数の数-1)以下ならループ
 while num <= list_length - 1:
