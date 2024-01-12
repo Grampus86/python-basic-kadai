@@ -20,17 +20,17 @@ class Human:
             print('年齢の入力に不備があります。')
 
 
-taro_age = 20  # 年齢
 taro_name = 'Taro'  # 名前
+taro_age = 20  # 年齢
 
-hanako_age = 18  # 年齢
 hanako_name = 'Hanako'  # 名前
+hanako_age = 18  # 年齢
 
-ichiro_age = 5  # 年齢
 ichiro_name = 'Ichiro'  # 名前
+ichiro_age = 5  # 年齢
 
-kota_age = 28  # 年齢
 kota_name = 'Kota'  # 名前
+kota_age = 28  # 年齢
 
 # インスタンス化
 taro = Human(taro_name, taro_age)
