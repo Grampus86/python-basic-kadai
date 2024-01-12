@@ -33,13 +33,13 @@ kota_age = 28  # 年齢
 kota_name = 'Kota'  # 名前
 
 # インスタンス化
-Taro = Human(taro_name, taro_age)
-Hanako = Human(hanako_name, hanako_age)
-Ichiro = Human(ichiro_name, ichiro_age)
-Kota = Human(kota_name, kota_age)
+taro = Human(taro_name, taro_age)
+hanako = Human(hanako_name, hanako_age)
+ichiro = Human(ichiro_name, ichiro_age)
+kota = Human(kota_name, kota_age)
 
 # インスタンスをリストに格納
-human_info_list = [Taro, Hanako, Ichiro, Kota]
+human_info_list = [taro, hanako, ichiro, kota]
 
 # `check_adult`メゾットを呼び出し、大人かどうかを判定
 for human_info in human_info_list:
